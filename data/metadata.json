@@ -1,0 +1,12 @@
+{
+  "allegations": 33358,
+  "complaints": 12056,
+  "officers": 3996,
+  "firstYear": 1985,
+  "lastYear": 2020,
+  "outcomes": {
+    "Substantiated": 8301,
+    "Unsubstantiated": 15448,
+    "Exonerated": 9609
+  }
+}

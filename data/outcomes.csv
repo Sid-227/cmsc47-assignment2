@@ -1,0 +1,349 @@
+year,category,outcome,count
+1985,Abuse of Authority,Unsubstantiated,3
+1985,Discourtesy,Unsubstantiated,1
+1985,Force,Substantiated,1
+1985,Force,Unsubstantiated,2
+1986,Abuse of Authority,Substantiated,1
+1986,Abuse of Authority,Unsubstantiated,7
+1986,Discourtesy,Substantiated,1
+1986,Discourtesy,Unsubstantiated,3
+1986,Force,Exonerated,3
+1986,Force,Substantiated,1
+1986,Force,Unsubstantiated,6
+1987,Abuse of Authority,Exonerated,1
+1987,Abuse of Authority,Unsubstantiated,1
+1987,Discourtesy,Unsubstantiated,6
+1987,Force,Unsubstantiated,10
+1987,Offensive Language,Substantiated,1
+1987,Offensive Language,Unsubstantiated,3
+1988,Abuse of Authority,Substantiated,4
+1988,Abuse of Authority,Unsubstantiated,5
+1988,Discourtesy,Substantiated,1
+1988,Discourtesy,Unsubstantiated,7
+1988,Force,Substantiated,5
+1988,Force,Unsubstantiated,12
+1988,Offensive Language,Unsubstantiated,1
+1989,Abuse of Authority,Exonerated,1
+1989,Abuse of Authority,Unsubstantiated,14
+1989,Discourtesy,Substantiated,1
+1989,Discourtesy,Unsubstantiated,11
+1989,Force,Exonerated,1
+1989,Force,Substantiated,1
+1989,Force,Unsubstantiated,15
+1989,Offensive Language,Unsubstantiated,5
+1990,Abuse of Authority,Unsubstantiated,9
+1990,Discourtesy,Substantiated,8
+1990,Discourtesy,Unsubstantiated,6
+1990,Force,Exonerated,4
+1990,Force,Substantiated,2
+1990,Force,Unsubstantiated,18
+1990,Offensive Language,Substantiated,4
+1990,Offensive Language,Unsubstantiated,3
+1991,Abuse of Authority,Exonerated,4
+1991,Abuse of Authority,Unsubstantiated,4
+1991,Discourtesy,Unsubstantiated,19
+1991,Force,Exonerated,4
+1991,Force,Substantiated,5
+1991,Force,Unsubstantiated,20
+1992,Abuse of Authority,Substantiated,2
+1992,Abuse of Authority,Unsubstantiated,14
+1992,Discourtesy,Substantiated,5
+1992,Discourtesy,Unsubstantiated,21
+1992,Force,Exonerated,1
+1992,Force,Substantiated,15
+1992,Force,Unsubstantiated,23
+1992,Offensive Language,Unsubstantiated,7
+1993,Abuse of Authority,Exonerated,2
+1993,Abuse of Authority,Substantiated,6
+1993,Abuse of Authority,Unsubstantiated,6
+1993,Discourtesy,Substantiated,6
+1993,Discourtesy,Unsubstantiated,10
+1993,Force,Exonerated,4
+1993,Force,Substantiated,8
+1993,Force,Unsubstantiated,26
+1993,Offensive Language,Substantiated,2
+1993,Offensive Language,Unsubstantiated,6
+1994,Abuse of Authority,Exonerated,12
+1994,Abuse of Authority,Substantiated,7
+1994,Abuse of Authority,Unsubstantiated,16
+1994,Discourtesy,Exonerated,1
+1994,Discourtesy,Substantiated,13
+1994,Discourtesy,Unsubstantiated,25
+1994,Force,Exonerated,6
+1994,Force,Substantiated,35
+1994,Force,Unsubstantiated,49
+1994,Offensive Language,Exonerated,1
+1994,Offensive Language,Substantiated,2
+1994,Offensive Language,Unsubstantiated,10
+1995,Abuse of Authority,Exonerated,14
+1995,Abuse of Authority,Substantiated,10
+1995,Abuse of Authority,Unsubstantiated,18
+1995,Discourtesy,Exonerated,1
+1995,Discourtesy,Substantiated,12
+1995,Discourtesy,Unsubstantiated,36
+1995,Force,Exonerated,19
+1995,Force,Substantiated,37
+1995,Force,Unsubstantiated,54
+1995,Offensive Language,Substantiated,3
+1995,Offensive Language,Unsubstantiated,9
+1996,Abuse of Authority,Exonerated,14
+1996,Abuse of Authority,Substantiated,24
+1996,Abuse of Authority,Unsubstantiated,31
+1996,Discourtesy,Substantiated,13
+1996,Discourtesy,Unsubstantiated,31
+1996,Force,Exonerated,28
+1996,Force,Substantiated,41
+1996,Force,Unsubstantiated,61
+1996,Offensive Language,Substantiated,1
+1996,Offensive Language,Unsubstantiated,10
+1997,Abuse of Authority,Exonerated,29
+1997,Abuse of Authority,Substantiated,28
+1997,Abuse of Authority,Unsubstantiated,21
+1997,Discourtesy,Substantiated,9
+1997,Discourtesy,Unsubstantiated,28
+1997,Force,Exonerated,20
+1997,Force,Substantiated,23
+1997,Force,Unsubstantiated,50
+1997,Offensive Language,Substantiated,2
+1997,Offensive Language,Unsubstantiated,4
+1998,Abuse of Authority,Exonerated,30
+1998,Abuse of Authority,Substantiated,41
+1998,Abuse of Authority,Unsubstantiated,39
+1998,Discourtesy,Exonerated,2
+1998,Discourtesy,Substantiated,11
+1998,Discourtesy,Unsubstantiated,28
+1998,Force,Exonerated,26
+1998,Force,Substantiated,23
+1998,Force,Unsubstantiated,38
+1998,Offensive Language,Substantiated,3
+1998,Offensive Language,Unsubstantiated,9
+1999,Abuse of Authority,Exonerated,34
+1999,Abuse of Authority,Substantiated,17
+1999,Abuse of Authority,Unsubstantiated,27
+1999,Discourtesy,Exonerated,3
+1999,Discourtesy,Substantiated,4
+1999,Discourtesy,Unsubstantiated,19
+1999,Force,Exonerated,31
+1999,Force,Substantiated,5
+1999,Force,Unsubstantiated,11
+1999,Offensive Language,Substantiated,1
+1999,Offensive Language,Unsubstantiated,3
+2000,Abuse of Authority,Exonerated,50
+2000,Abuse of Authority,Substantiated,42
+2000,Abuse of Authority,Unsubstantiated,33
+2000,Discourtesy,Exonerated,1
+2000,Discourtesy,Substantiated,15
+2000,Discourtesy,Unsubstantiated,20
+2000,Force,Exonerated,34
+2000,Force,Substantiated,12
+2000,Force,Unsubstantiated,17
+2000,Offensive Language,Unsubstantiated,8
+2001,Abuse of Authority,Exonerated,75
+2001,Abuse of Authority,Substantiated,46
+2001,Abuse of Authority,Unsubstantiated,52
+2001,Discourtesy,Exonerated,4
+2001,Discourtesy,Substantiated,17
+2001,Discourtesy,Unsubstantiated,33
+2001,Force,Exonerated,73
+2001,Force,Substantiated,12
+2001,Force,Unsubstantiated,22
+2001,Offensive Language,Substantiated,1
+2001,Offensive Language,Unsubstantiated,9
+2002,Abuse of Authority,Exonerated,134
+2002,Abuse of Authority,Substantiated,93
+2002,Abuse of Authority,Unsubstantiated,82
+2002,Discourtesy,Exonerated,15
+2002,Discourtesy,Substantiated,27
+2002,Discourtesy,Unsubstantiated,48
+2002,Force,Exonerated,91
+2002,Force,Substantiated,35
+2002,Force,Unsubstantiated,36
+2002,Offensive Language,Substantiated,1
+2002,Offensive Language,Unsubstantiated,9
+2003,Abuse of Authority,Exonerated,155
+2003,Abuse of Authority,Substantiated,150
+2003,Abuse of Authority,Unsubstantiated,141
+2003,Discourtesy,Exonerated,7
+2003,Discourtesy,Substantiated,30
+2003,Discourtesy,Unsubstantiated,72
+2003,Force,Exonerated,124
+2003,Force,Substantiated,32
+2003,Force,Unsubstantiated,70
+2003,Offensive Language,Substantiated,6
+2003,Offensive Language,Unsubstantiated,5
+2004,Abuse of Authority,Exonerated,222
+2004,Abuse of Authority,Substantiated,188
+2004,Abuse of Authority,Unsubstantiated,165
+2004,Discourtesy,Exonerated,9
+2004,Discourtesy,Substantiated,41
+2004,Discourtesy,Unsubstantiated,84
+2004,Force,Exonerated,164
+2004,Force,Substantiated,23
+2004,Force,Unsubstantiated,58
+2004,Offensive Language,Exonerated,1
+2004,Offensive Language,Substantiated,9
+2004,Offensive Language,Unsubstantiated,8
+2005,Abuse of Authority,Exonerated,360
+2005,Abuse of Authority,Substantiated,224
+2005,Abuse of Authority,Unsubstantiated,261
+2005,Discourtesy,Exonerated,11
+2005,Discourtesy,Substantiated,33
+2005,Discourtesy,Unsubstantiated,102
+2005,Force,Exonerated,230
+2005,Force,Substantiated,20
+2005,Force,Unsubstantiated,87
+2005,Offensive Language,Substantiated,3
+2005,Offensive Language,Unsubstantiated,14
+2006,Abuse of Authority,Exonerated,380
+2006,Abuse of Authority,Substantiated,255
+2006,Abuse of Authority,Unsubstantiated,357
+2006,Discourtesy,Exonerated,10
+2006,Discourtesy,Substantiated,32
+2006,Discourtesy,Unsubstantiated,144
+2006,Force,Exonerated,281
+2006,Force,Substantiated,36
+2006,Force,Unsubstantiated,133
+2006,Offensive Language,Unsubstantiated,26
+2007,Abuse of Authority,Exonerated,414
+2007,Abuse of Authority,Substantiated,211
+2007,Abuse of Authority,Unsubstantiated,517
+2007,Discourtesy,Exonerated,5
+2007,Discourtesy,Substantiated,22
+2007,Discourtesy,Unsubstantiated,204
+2007,Force,Exonerated,280
+2007,Force,Substantiated,34
+2007,Force,Unsubstantiated,174
+2007,Offensive Language,Substantiated,1
+2007,Offensive Language,Unsubstantiated,30
+2008,Abuse of Authority,Exonerated,344
+2008,Abuse of Authority,Substantiated,201
+2008,Abuse of Authority,Unsubstantiated,446
+2008,Discourtesy,Exonerated,13
+2008,Discourtesy,Substantiated,23
+2008,Discourtesy,Unsubstantiated,192
+2008,Force,Exonerated,217
+2008,Force,Substantiated,30
+2008,Force,Unsubstantiated,147
+2008,Offensive Language,Substantiated,1
+2008,Offensive Language,Unsubstantiated,17
+2009,Abuse of Authority,Exonerated,286
+2009,Abuse of Authority,Substantiated,279
+2009,Abuse of Authority,Unsubstantiated,458
+2009,Discourtesy,Exonerated,12
+2009,Discourtesy,Substantiated,23
+2009,Discourtesy,Unsubstantiated,234
+2009,Force,Exonerated,220
+2009,Force,Substantiated,23
+2009,Force,Unsubstantiated,190
+2009,Offensive Language,Substantiated,3
+2009,Offensive Language,Unsubstantiated,33
+2010,Abuse of Authority,Exonerated,300
+2010,Abuse of Authority,Substantiated,258
+2010,Abuse of Authority,Unsubstantiated,480
+2010,Discourtesy,Exonerated,19
+2010,Discourtesy,Substantiated,18
+2010,Discourtesy,Unsubstantiated,190
+2010,Force,Exonerated,217
+2010,Force,Substantiated,14
+2010,Force,Unsubstantiated,134
+2010,Offensive Language,Unsubstantiated,29
+2011,Abuse of Authority,Exonerated,203
+2011,Abuse of Authority,Substantiated,370
+2011,Abuse of Authority,Unsubstantiated,527
+2011,Discourtesy,Exonerated,21
+2011,Discourtesy,Substantiated,41
+2011,Discourtesy,Unsubstantiated,245
+2011,Force,Exonerated,222
+2011,Force,Substantiated,22
+2011,Force,Unsubstantiated,196
+2011,Offensive Language,Substantiated,5
+2011,Offensive Language,Unsubstantiated,44
+2012,Abuse of Authority,Exonerated,183
+2012,Abuse of Authority,Substantiated,374
+2012,Abuse of Authority,Unsubstantiated,558
+2012,Discourtesy,Exonerated,6
+2012,Discourtesy,Substantiated,48
+2012,Discourtesy,Unsubstantiated,221
+2012,Force,Exonerated,157
+2012,Force,Substantiated,36
+2012,Force,Unsubstantiated,215
+2012,Offensive Language,Substantiated,7
+2012,Offensive Language,Unsubstantiated,36
+2013,Abuse of Authority,Exonerated,221
+2013,Abuse of Authority,Substantiated,445
+2013,Abuse of Authority,Unsubstantiated,620
+2013,Discourtesy,Exonerated,12
+2013,Discourtesy,Substantiated,50
+2013,Discourtesy,Unsubstantiated,249
+2013,Force,Exonerated,187
+2013,Force,Substantiated,43
+2013,Force,Unsubstantiated,230
+2013,Offensive Language,Substantiated,8
+2013,Offensive Language,Unsubstantiated,49
+2014,Abuse of Authority,Exonerated,268
+2014,Abuse of Authority,Substantiated,452
+2014,Abuse of Authority,Unsubstantiated,636
+2014,Discourtesy,Exonerated,7
+2014,Discourtesy,Substantiated,68
+2014,Discourtesy,Unsubstantiated,233
+2014,Force,Exonerated,124
+2014,Force,Substantiated,93
+2014,Force,Unsubstantiated,285
+2014,Offensive Language,Substantiated,5
+2014,Offensive Language,Unsubstantiated,49
+2015,Abuse of Authority,Exonerated,347
+2015,Abuse of Authority,Substantiated,629
+2015,Abuse of Authority,Unsubstantiated,535
+2015,Discourtesy,Exonerated,14
+2015,Discourtesy,Substantiated,90
+2015,Discourtesy,Unsubstantiated,224
+2015,Force,Exonerated,163
+2015,Force,Substantiated,85
+2015,Force,Unsubstantiated,177
+2015,Offensive Language,Substantiated,8
+2015,Offensive Language,Unsubstantiated,40
+2016,Abuse of Authority,Exonerated,403
+2016,Abuse of Authority,Substantiated,568
+2016,Abuse of Authority,Unsubstantiated,536
+2016,Discourtesy,Exonerated,5
+2016,Discourtesy,Substantiated,76
+2016,Discourtesy,Unsubstantiated,223
+2016,Force,Exonerated,181
+2016,Force,Substantiated,89
+2016,Force,Unsubstantiated,203
+2016,Offensive Language,Substantiated,15
+2016,Offensive Language,Unsubstantiated,46
+2017,Abuse of Authority,Exonerated,431
+2017,Abuse of Authority,Substantiated,427
+2017,Abuse of Authority,Unsubstantiated,641
+2017,Discourtesy,Exonerated,7
+2017,Discourtesy,Substantiated,56
+2017,Discourtesy,Unsubstantiated,212
+2017,Force,Exonerated,143
+2017,Force,Substantiated,59
+2017,Force,Unsubstantiated,157
+2017,Offensive Language,Substantiated,9
+2017,Offensive Language,Unsubstantiated,36
+2018,Abuse of Authority,Exonerated,538
+2018,Abuse of Authority,Substantiated,421
+2018,Abuse of Authority,Unsubstantiated,541
+2018,Discourtesy,Exonerated,31
+2018,Discourtesy,Substantiated,153
+2018,Discourtesy,Unsubstantiated,154
+2018,Force,Exonerated,148
+2018,Force,Substantiated,58
+2018,Force,Unsubstantiated,176
+2018,Offensive Language,Substantiated,15
+2018,Offensive Language,Unsubstantiated,46
+2019,Abuse of Authority,Exonerated,417
+2019,Abuse of Authority,Substantiated,399
+2019,Abuse of Authority,Unsubstantiated,443
+2019,Discourtesy,Exonerated,17
+2019,Discourtesy,Substantiated,79
+2019,Discourtesy,Unsubstantiated,83
+2019,Force,Exonerated,95
+2019,Force,Substantiated,18
+2019,Force,Unsubstantiated,60
+2019,Offensive Language,Substantiated,11
+2019,Offensive Language,Unsubstantiated,20
+2020,Abuse of Authority,Exonerated,4
