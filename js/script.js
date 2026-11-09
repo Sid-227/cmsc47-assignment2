@@ -2,13 +2,12 @@
 const margin = { top: 30, right: 175, bottom: 38, left: 150 };
 const width = 980 - margin.left - margin.right;
 const outcomes = ['Substantiated', 'Unsubstantiated', 'Exonerated'];
-const colorScale = d3.scaleOrdinal(outcomes, ['#b96a32', '#4d6f92', '#246557']);
+const colorScale = d3.scaleOrdinal(outcomes, ['#b75d2d', '#4d6f92', '#28776c']);
 const formatNumber = d3.format(',');
 const formatPercent = d3.format('.1f');
 let allData = [];
 let targetYear = 'all';
 let targetCategory = 'all';
-let revealed = false;
 
 function init() {
     d3.csv('data/outcomes.csv', function (d) {
@@ -35,16 +34,11 @@ function setupSelector() {
     d3.select('#year').on('change', function () { targetYear = this.value; updateVis(); });
     d3.select('#category').on('change', function () { targetCategory = this.value; updateVis(); });
     d3.select('#reset').on('click', function () {
-        targetYear = 'all'; targetCategory = 'all';
+        targetYear = 'all';
+        targetCategory = 'all';
         d3.select('#year').property('value', 'all');
         d3.select('#category').property('value', 'all');
         updateVis();
-    });
-    d3.select('#reveal').on('click', function () {
-        revealed = !revealed;
-        d3.select(this).attr('aria-pressed', revealed).text(revealed ? 'Restore the misleading framing ↶' : 'Reveal the framing ↗');
-        d3.select('#reveal-note').property('hidden', !revealed);
-        updateBlackHat();
     });
 }
 
@@ -81,7 +75,7 @@ function createVis(selector, data, description, baseline = null) {
         .text(d => d.valueLabel || `${formatPercent(d.percent)}% · ${formatNumber(d.count)}`);
     chart.selectAll('.baseline').data(baseline === null ? [] : [baseline]).join('line')
         .attr('class', 'baseline').attr('x1', d => xScale(d)).attr('x2', d => xScale(d))
-        .attr('y1', -12).attr('y2', height).attr('stroke', '#182c2c').attr('stroke-dasharray', '4 4');
+        .attr('y1', -12).attr('y2', height).attr('stroke', '#203b39').attr('stroke-dasharray', '4 4');
     chart.selectAll('.baseline-label').data(baseline === null ? [] : [baseline]).join('text')
         .attr('class', 'baseline-label').attr('x', d => xScale(d) + 7).attr('y', -16)
         .text(d => `Overall: ${formatPercent(d)}%`);
@@ -95,7 +89,7 @@ function updateVis() {
     const categoryLabel = targetCategory === 'all' ? 'All categories' : targetCategory;
     const summary = summarize(currentData);
     createVis('#outcomes', summary, summary.map(d => `${d.label}: ${formatPercent(d.percent)} percent, ${d.count} allegations`).join('. '));
-    const selection = `${categoryLabel} · Received ${yearLabel} · n = ${formatNumber(total)} allegation records. ${total ? 'Each percentage uses this selection as its denominator.' : 'No records match this selection; percentages are undefined, and zero-length bars are shown.'}`;
+    const selection = `${categoryLabel} · Received ${yearLabel} · count = ${formatNumber(total)} allegation records. ${total ? 'Each percentage uses this selection as its denominator.' : 'No records match this selection; percentages are undefined, and zero-length bars are shown.'}`;
     d3.select('#selection').text(selection);
     d3.select('#status').text(`${formatNumber(total)} allegations selected. ${targetYear === '2020' ? '2020 is incomplete; avoid comparisons of yearly volume.' : ''}`);
     const overall = summarize(yearData)[0].percent;
@@ -103,11 +97,15 @@ function updateVis() {
         const result = summarize(rows)[0];
         const n = d3.sum(rows, d => d.count);
         const difference = result.percent - overall;
-        return { ...result, label: category, dimmed: targetCategory !== 'all' && targetCategory !== category,
-            valueLabel: `${formatPercent(result.percent)}% (${difference >= 0 ? '+' : ''}${formatPercent(difference)} pp) · n=${formatNumber(n)}` };
+        return {
+            ...result,
+            label: category,
+            dimmed: targetCategory !== 'all' && targetCategory !== category,
+            valueLabel: `${formatPercent(result.percent)}% (${difference >= 0 ? '+' : ''}${formatPercent(difference)}%) · count = ${formatNumber(n)}`
+        };
     }).sort((a, b) => d3.descending(a.percent, b.percent));
     createVis('#comparison', groups, groups.map(d => `${d.label}: ${d.valueLabel}`).join('. '), overall);
-    d3.select('#comparison-note').text(`Received ${yearLabel}. Each bar uses its own category’s allegation count (n). Dashed line: all-category substantiation percentage for this year selection. pp = percentage points from that baseline. Category selection highlights a row; it does not change the baseline. These are descriptive comparisons, not causal effects.`);
+    d3.select('#comparison-note').text(`Received ${yearLabel}. Category selection highlights a row, it does not change the baseline.`);
 }
 
 function updateBlackHat() {
@@ -115,15 +113,10 @@ function updateBlackHat() {
     const combined = summary[1].count + summary[2].count;
     const total = d3.sum(allData, d => d.count);
     const misleading = [
-        { label: 'Cleared', count: combined, percent: combined / total * 100, color: '#246557' },
+        { label: 'Cleared', count: combined, percent: combined / total * 100, color: '#28776c' },
         { label: 'Substantiated', count: summary[0].count, percent: summary[0].percent, color: '#82918a' }
     ];
-    const data = revealed ? summary : misleading;
-    d3.select('#black-title').text(revealed ? 'Nearly half of allegations remained unsubstantiated' : 'Three in four allegations leave officers cleared');
-    d3.select('#black-subtitle').text(revealed ? 'Selected officers and closed cases. Unsubstantiated is not the same as exonerated.' : 'A broad view of the investigation record, 1985–2020.');
-    d3.select('#black-number').text(`${formatPercent(revealed ? summary[1].percent : combined / total * 100)}%`);
-    d3.select('#black-number-label').text(revealed ? 'of allegations unsubstantiated' : 'of allegations cleared');
-    createVis('#black-chart', data, `${revealed ? 'Corrected' : 'Intentionally misleading'} chart. ` + data.map(d => `${d.label}: ${formatPercent(d.percent)} percent, ${d.count} records`).join('. '));
+    createVis('#black-chart', misleading, misleading.map(d => `${d.label}: ${formatPercent(d.percent)} percent, ${d.count} records`).join('. '));
 }
 
 window.addEventListener('load', init);
